@@ -1,0 +1,31 @@
+name = www.evergreen.edu
+description = A custom experimental template, created for The Evergreen State College.
+core = 7.x
+ 
+stylesheets[all][] = css/style.css
+
+; default regions
+
+; core regions that may not be removed
+regions[page_top] = Page Top
+regions[content] = Content
+regions[page_bottom] = Page Bottom
+
+; optional default regions
+;regions[header] = Header
+regions[highlighted] = Highlighted
+regions[help] = Help
+;regions[sidebar_first] = Sidebar First
+;regions[sidebar_second] = Sidebar Second
+;regions[footer] = Footer
+
+
+; custom regions 
+; regions[global_nav] = Global Navigation
+regions[section_title] = Section Title
+regions[section_nav] = Section Navigation
+; regions[user_menu] = User Menu (built-in Drupal thing)
+regions[primary_content] = Primary Content
+regions[secondary_content] = Secondary Content
+
+; note: "As a general rule, consider using a region when content needs to be moved between regions or rearranged in the Blocks interface. When content doesn’t need to be controlled via the Blocks interface, and it is risky for it to be there, consider hardcoding it in template files so it can’t be affected by actions taken in the Blocks interface."
