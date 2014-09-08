@@ -206,6 +206,7 @@ Because wow. That markup is entirely different from anything I'm going to wrangl
 <!-- end Drupal default HTML -->
 
 </main>
+<div class="main-background"><?php print render($page['background_image']); ?><!--<img src="images/hero.jpg" class="main-background-img" alt="">--></div>
 
 </section>
 
