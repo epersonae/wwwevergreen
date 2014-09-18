@@ -140,11 +140,11 @@ if($is_front == TRUE) {
 <header class="row wrapper"><div class="site-name unit-5-7">
 <?php 
 //eventually, the site title will be set up programmatically.
-if($is_front != TRUE) { 
+//if($is_front != TRUE) { 
 	print render($page['section_title']);
 ?> 
 <!--<h1><a href="/academics">Sample Site Title</a></h1>-->
-<? }; ?>
+<? //}; ?>
 </div></header>
 
 <main id="main-row" class="main-row row wrapper" role="main">
