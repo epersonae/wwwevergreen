@@ -3,6 +3,8 @@ description = A custom experimental template, created for The Evergreen State Co
 core = 7.x
  
 stylesheets[all][] = css/style.css
+;Justin's styles downloaded from github
+stylesheets[all][] = styles.css
 
 ; default regions
 

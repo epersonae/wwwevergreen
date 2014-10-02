@@ -67,7 +67,7 @@
 <link href="http://evergreen.edu/apple-touch-icon-152-precomposed.png" rel="apple-touch-icon" sizes="152x152"/><!-- retina iPad iOS 7 -->
 <link href="http://evergreen.edu/favicon.png" rel="icon" type="image/png"/><!-- favicon for everybody else -->
 <link href="http://evergreen.edu/favicon.ico" rel="shortcut icon" type="image/x-icon"/><!-- IE and hi-dpi favicon -->
-<link href="http://evergreen.edu/_inc/styles.css" media="all" rel="stylesheet"/>
+<!--<link href="http://evergreen.edu/_inc/styles.css" media="all" rel="stylesheet"/>-->
 <link href="http://evergreen.edu/_inc/print.css" media="print" rel="stylesheet"/>
   
   
