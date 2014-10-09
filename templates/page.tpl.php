@@ -78,15 +78,15 @@
 		<div class="header-dropdowns">
 <div><input id="internal-users-flag" name="header-toggle" type="checkbox"/> 
 <ul class="element-list header-dropdown internal-users">
-<li><a href="https://my.evergreen.edu"><img alt="User" height="10" src="<?php echo(path_to_theme()) ?>/images/user-32.png" width="10"/> my.evergreen.edu</a></li>
+<li><a href="https://my.evergreen.edu"><img alt="User" height="10" src="/<?php echo(path_to_theme()) ?>/images/user-32.png" width="10"/> my.evergreen.edu</a></li>
 <li><a href="http://evergreen.edu/webmail">Webmail</a></li>
 </ul>
 </div>
 <div class="top-search"><input id="search-flag" name="header-toggle" type="checkbox"/> 
 <div class="header-dropdown">
-<form action="/search/home" class="search" method="get" role="search"><label for="q">Search</label> <input id="q" name="q" placeholder="Search" type="search"/><!-- --><button class="search-button"><img alt="Search" src="<?php echo(path_to_theme()) ?>/images/search-32.png"/></button> 
+<form action="/search/home" class="search" method="get" role="search"><label for="q">Search</label> <input id="q" name="q" placeholder="Search" type="search"/><!-- --><button class="search-button"><img alt="Search" src="/<?php echo(path_to_theme()) ?>/images/search-32.png"/></button> 
 <ul class="element-list search-tools">
-<li class="internal-users-alt"><a href="https://my.evergreen.edu"><img alt="User" height="10" src="<?php echo(path_to_theme()) ?>/images/user-32.png" width="10"/> my.evergreen.edu</a></li>
+<li class="internal-users-alt"><a href="https://my.evergreen.edu"><img alt="User" height="10" src="/<?php echo(path_to_theme()) ?>/images/user-32.png" width="10"/> my.evergreen.edu</a></li>
 <li class="internal-users-alt"><a href="http://evergreen.edu/webmail">Webmail</a></li>
 <li><a href="http://evergreen.edu/directories.htm">Directories</a></li>
 </ul>
@@ -95,8 +95,8 @@
 </div>
 </div>
 <div class="page-header">
-<div class="logo"><a href="http://evergreen.edu"><img alt="The Evergreen State College&#8212;Olympia, Washington" src="<?php echo(path_to_theme()) ?>/images/logo.png" srcset="<?php echo(path_to_theme()) ?>/images/evergreen-long-tree-oly.svg 1x, <?php echo(path_to_theme()) ?>/images/evergreen-long-tree-oly.svg 2x"/></a></div>
-<div class="off-canvas"><label class="search-toggle" for="search-flag"><img alt="Search" src="<?php echo(path_to_theme()) ?>/images/search-w32.png"/></label> <label class="student-toggle" for="internal-users-flag"><img alt="Profile" src="<?php echo(path_to_theme()) ?>/images/user-w32.png"/></label></div>
+<div class="logo"><a href="http://evergreen.edu"><img alt="The Evergreen State College&#8212;Olympia, Washington" src="/<?php echo(path_to_theme()) ?>/images/logo.png" srcset="/<?php echo(path_to_theme()) ?>/images/evergreen-long-tree-oly.svg 1x, /<?php echo(path_to_theme()) ?>/images/evergreen-long-tree-oly.svg 2x"/></a></div>
+<div class="off-canvas"><label class="search-toggle" for="search-flag"><img alt="Search" src="/<?php echo(path_to_theme()) ?>/images/search-w32.png"/></label> <label class="student-toggle" for="internal-users-flag"><img alt="Profile" src="/<?php echo(path_to_theme()) ?>/images/user-w32.png"/></label></div>
 </div>
 
 
@@ -215,7 +215,7 @@ Because wow. That markup is entirely different from anything I'm going to wrangl
 <div class="wrapper">
 <div class="grid">
 <div class="do-not-print unit-3-7">
-<p class="footer-map"><a href="http://evergreen.edu/tour/home"><img alt="Map of Washington" src="<?php echo(path_to_theme()) ?>/images/map-land-cover.jpg"/></a><br/>
+<p class="footer-map"><a href="http://evergreen.edu/tour/home"><img alt="Map of Washington" src="/<?php echo(path_to_theme()) ?>/images/map-land-cover.jpg"/></a><br/>
  <small>&#169; <abbr title="Washington">WA</abbr> <abbr title="Department">Dept.</abbr> of&#160;Ecology</small></p>
 <ul class="element-list link-list">
 <li><a href="http://evergreen.edu/employment">Jobs at Evergreen</a></li>
@@ -223,11 +223,11 @@ Because wow. That markup is entirely different from anything I'm going to wrangl
 <li>
 <p>Stay connected:</p>
 <ul class="element-list lineup">
-<li><a href="http://facebook.com/TheEvergreenStateCollege" title="Facebook"><img alt="Facebook" class="lineup-icon" src="<?php echo(path_to_theme()) ?>/images/icons/external/facebook32x32.png"/></a></li>
-<li><a href="http://twitter.com/EvergreenStCol" title="Twitter"><img alt="Twitter" class="lineup-icon" src="<?php echo(path_to_theme()) ?>/images/icons/external/twitter32x32.png"/></a></li>
-<li><a href="http://youtube.com/user/evergreen" title="YouTube"><img alt="YouTube" class="lineup-icon" src="<?php echo(path_to_theme()) ?>/images/icons/external/youtube32x32.png"/></a></li>
-<li><a href="http://instagram.com/TheEvergreenStateCollege" title="Instagram"><img alt="Instagram" class="lineup-icon" src="<?php echo(path_to_theme()) ?>/images/icons/external/instagram32x32.png"/></a></li>
-<li><a href="http://www.linkedin.com/edu/school?id=19655" title="LinkedIn"><img alt="LinkedIn" class="lineup-icon" src="<?php echo(path_to_theme()) ?>/images/icons/external/linkedin32x32.png"/></a></li>
+<li><a href="http://facebook.com/TheEvergreenStateCollege" title="Facebook"><img alt="Facebook" class="lineup-icon" src="/<?php echo(path_to_theme()) ?>/images/icons/external/facebook32x32.png"/></a></li>
+<li><a href="http://twitter.com/EvergreenStCol" title="Twitter"><img alt="Twitter" class="lineup-icon" src="/<?php echo(path_to_theme()) ?>/images/icons/external/twitter32x32.png"/></a></li>
+<li><a href="http://youtube.com/user/evergreen" title="YouTube"><img alt="YouTube" class="lineup-icon" src="/<?php echo(path_to_theme()) ?>/images/icons/external/youtube32x32.png"/></a></li>
+<li><a href="http://instagram.com/TheEvergreenStateCollege" title="Instagram"><img alt="Instagram" class="lineup-icon" src="/<?php echo(path_to_theme()) ?>/images/icons/external/instagram32x32.png"/></a></li>
+<li><a href="http://www.linkedin.com/edu/school?id=19655" title="LinkedIn"><img alt="LinkedIn" class="lineup-icon" src="/<?php echo(path_to_theme()) ?>/images/icons/external/linkedin32x32.png"/></a></li>
 </ul>
 </li>
 </ul>
