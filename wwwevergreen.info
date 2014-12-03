@@ -1,5 +1,5 @@
 name = www.evergreen.edu
-description = A custom experimental template, created for The Evergreen State College.
+description = A custom template created for The Evergreen State College.
 core = 7.x
  
 stylesheets[all][] = css/style.css
